@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load the pre-trained emotion detection model
-emotion_model = load_model('emotion_model.h5')
+emotion_model = load_model('fer2013_mini_XCEPTION.102-0.66.hdf5')
 
 # Emotion labels
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
